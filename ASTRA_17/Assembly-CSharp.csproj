@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{0FB68564-2838-90C4-6AFD-B1C147F067BA}</ProjectGuid>
+    <ProjectGuid>{489D17AA-EB2D-0C37-A025-5DD4005B63BF}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -55,6 +55,7 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\Astronauta.cs" />
     <Compile Include="Assets\Scripts\Laser.cs" />
+    <Compile Include="Assets\Scripts\MovCam.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
