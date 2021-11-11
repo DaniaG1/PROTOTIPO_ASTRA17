@@ -1,0 +1,435 @@
+{
+	"frames": {
+		"body_1.png": {
+			"frame": {
+				"h": 205,
+				"w": 318,
+				"x": 0,
+				"y": 226
+			},
+			"rotated": "true",
+			"sourceSize": {
+				"h": 251,
+				"w": 357
+			},
+			"spriteSourceSize": {
+				"h": 205,
+				"w": 318,
+				"x": 18,
+				"y": 23
+			},
+			"trimmed": "true"
+		},
+		"body_2.png": {
+			"frame": {
+				"h": 205,
+				"w": 318,
+				"x": 205,
+				"y": 226
+			},
+			"rotated": "true",
+			"sourceSize": {
+				"h": 251,
+				"w": 357
+			},
+			"spriteSourceSize": {
+				"h": 205,
+				"w": 318,
+				"x": 18,
+				"y": 23
+			},
+			"trimmed": "true"
+		},
+		"claw.png": {
+			"frame": {
+				"h": 21,
+				"w": 54,
+				"x": 600,
+				"y": 398
+			},
+			"rotated": "true",
+			"sourceSize": {
+				"h": 38,
+				"w": 60
+			},
+			"spriteSourceSize": {
+				"h": 21,
+				"w": 54,
+				"x": 3,
+				"y": 8
+			},
+			"trimmed": "true"
+		},
+		"devourer-hopper.png": {
+			"frame": {
+				"h": 226,
+				"w": 336,
+				"x": 0,
+				"y": 0
+			},
+			"rotated": "false",
+			"sourceSize": {
+				"h": 255,
+				"w": 367
+			},
+			"spriteSourceSize": {
+				"h": 226,
+				"w": 336,
+				"x": 14,
+				"y": 16
+			},
+			"trimmed": "true"
+		},
+		"foot.png": {
+			"frame": {
+				"h": 39,
+				"w": 81,
+				"x": 365,
+				"y": 544
+			},
+			"rotated": "true",
+			"sourceSize": {
+				"h": 50,
+				"w": 103
+			},
+			"spriteSourceSize": {
+				"h": 39,
+				"w": 81,
+				"x": 11,
+				"y": 6
+			},
+			"trimmed": "true"
+		},
+		"jaw-pouch.png": {
+			"frame": {
+				"h": 90,
+				"w": 108,
+				"x": 410,
+				"y": 510
+			},
+			"rotated": "true",
+			"sourceSize": {
+				"h": 99,
+				"w": 116
+			},
+			"spriteSourceSize": {
+				"h": 90,
+				"w": 108,
+				"x": 4,
+				"y": 3
+			},
+			"trimmed": "true"
+		},
+		"jaw_1.png": {
+			"frame": {
+				"h": 109,
+				"w": 164,
+				"x": 410,
+				"y": 132
+			},
+			"rotated": "false",
+			"sourceSize": {
+				"h": 153,
+				"w": 224
+			},
+			"spriteSourceSize": {
+				"h": 109,
+				"w": 164,
+				"x": 7,
+				"y": 9
+			},
+			"trimmed": "true"
+		},
+		"jaw_2.png": {
+			"frame": {
+				"h": 132,
+				"w": 209,
+				"x": 410,
+				"y": 0
+			},
+			"rotated": "false",
+			"sourceSize": {
+				"h": 153,
+				"w": 224
+			},
+			"spriteSourceSize": {
+				"h": 132,
+				"w": 209,
+				"x": 6,
+				"y": 9
+			},
+			"trimmed": "true"
+		},
+		"jaw_3.png": {
+			"frame": {
+				"h": 99,
+				"w": 156,
+				"x": 410,
+				"y": 241
+			},
+			"rotated": "false",
+			"sourceSize": {
+				"h": 117,
+				"w": 175
+			},
+			"spriteSourceSize": {
+				"h": 99,
+				"w": 156,
+				"x": 9,
+				"y": 6
+			},
+			"trimmed": "true"
+		},
+		"leg.png": {
+			"frame": {
+				"h": 42,
+				"w": 139,
+				"x": 574,
+				"y": 132
+			},
+			"rotated": "true",
+			"sourceSize": {
+				"h": 64,
+				"w": 160
+			},
+			"spriteSourceSize": {
+				"h": 42,
+				"w": 139,
+				"x": 9,
+				"y": 12
+			},
+			"trimmed": "true"
+		},
+		"poisonspit-impact0000.png": {
+			"frame": {
+				"h": 91,
+				"w": 68,
+				"x": 274,
+				"y": 544
+			},
+			"rotated": "true",
+			"sourceSize": {
+				"h": 167,
+				"w": 115
+			},
+			"spriteSourceSize": {
+				"h": 91,
+				"w": 68,
+				"x": 13,
+				"y": 41
+			},
+			"trimmed": "true"
+		},
+		"poisonspit-impact0001.png": {
+			"frame": {
+				"h": 117,
+				"w": 69,
+				"x": 336,
+				"y": 0
+			},
+			"rotated": "false",
+			"sourceSize": {
+				"h": 167,
+				"w": 115
+			},
+			"spriteSourceSize": {
+				"h": 117,
+				"w": 69,
+				"x": 11,
+				"y": 25
+			},
+			"trimmed": "true"
+		},
+		"poisonspit-impact0002.png": {
+			"frame": {
+				"h": 133,
+				"w": 77,
+				"x": 141,
+				"y": 544
+			},
+			"rotated": "true",
+			"sourceSize": {
+				"h": 167,
+				"w": 115
+			},
+			"spriteSourceSize": {
+				"h": 133,
+				"w": 77,
+				"x": 11,
+				"y": 16
+			},
+			"trimmed": "true"
+		},
+		"poisonspit-impact0003.png": {
+			"frame": {
+				"h": 141,
+				"w": 81,
+				"x": 0,
+				"y": 544
+			},
+			"rotated": "true",
+			"sourceSize": {
+				"h": 167,
+				"w": 115
+			},
+			"spriteSourceSize": {
+				"h": 141,
+				"w": 81,
+				"x": 11,
+				"y": 12
+			},
+			"trimmed": "true"
+		},
+		"poisonspit-impact0004.png": {
+			"frame": {
+				"h": 150,
+				"w": 84,
+				"x": 410,
+				"y": 340
+			},
+			"rotated": "true",
+			"sourceSize": {
+				"h": 167,
+				"w": 115
+			},
+			"spriteSourceSize": {
+				"h": 150,
+				"w": 84,
+				"x": 12,
+				"y": 7
+			},
+			"trimmed": "true"
+		},
+		"poisonspit-impact0005.png": {
+			"frame": {
+				"h": 97,
+				"w": 87,
+				"x": 500,
+				"y": 510
+			},
+			"rotated": "false",
+			"sourceSize": {
+				"h": 167,
+				"w": 115
+			},
+			"spriteSourceSize": {
+				"h": 97,
+				"w": 87,
+				"x": 13,
+				"y": 32
+			},
+			"trimmed": "true"
+		},
+		"poisonspit-impact0006.png": {
+			"frame": {
+				"h": 58,
+				"w": 90,
+				"x": 410,
+				"y": 424
+			},
+			"rotated": "false",
+			"sourceSize": {
+				"h": 167,
+				"w": 115
+			},
+			"spriteSourceSize": {
+				"h": 58,
+				"w": 90,
+				"x": 14,
+				"y": 40
+			},
+			"trimmed": "true"
+		},
+		"poisonspit-impact0007.png": {
+			"frame": {
+				"h": 60,
+				"w": 75,
+				"x": 500,
+				"y": 424
+			},
+			"rotated": "true",
+			"sourceSize": {
+				"h": 167,
+				"w": 115
+			},
+			"spriteSourceSize": {
+				"h": 60,
+				"w": 75,
+				"x": 30,
+				"y": 39
+			},
+			"trimmed": "true"
+		},
+		"poisonspit.png": {
+			"frame": {
+				"h": 40,
+				"w": 112,
+				"x": 560,
+				"y": 398
+			},
+			"rotated": "true",
+			"sourceSize": {
+				"h": 59,
+				"w": 134
+			},
+			"spriteSourceSize": {
+				"h": 40,
+				"w": 112,
+				"x": 11,
+				"y": 10
+			},
+			"trimmed": "true"
+		},
+		"thigh.png": {
+			"frame": {
+				"h": 56,
+				"w": 127,
+				"x": 566,
+				"y": 271
+			},
+			"rotated": "true",
+			"sourceSize": {
+				"h": 75,
+				"w": 141
+			},
+			"spriteSourceSize": {
+				"h": 56,
+				"w": 127,
+				"x": 6,
+				"y": 10
+			},
+			"trimmed": "true"
+		},
+		"tongue.png": {
+			"frame": {
+				"h": 32,
+				"w": 104,
+				"x": 336,
+				"y": 117
+			},
+			"rotated": "true",
+			"sourceSize": {
+				"h": 51,
+				"w": 122
+			},
+			"spriteSourceSize": {
+				"h": 32,
+				"w": 104,
+				"x": 10,
+				"y": 8
+			},
+			"trimmed": "true"
+		}
+	},
+	"meta": {
+		"app": "Spriter",
+		"format": "RGBA8888",
+		"image": "devourer-hopper.png",
+		"scale": 1,
+		"size": {
+			"h": 625,
+			"w": 625
+		},
+		"version": "r11"
+	}
+}

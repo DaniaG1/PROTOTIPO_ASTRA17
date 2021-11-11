@@ -6,15 +6,14 @@ public class Laser : MonoBehaviour
 {
     [SerializeField]
     private float velDisparo = 5.0f;
-    public GameObject bloog;
     private Rigidbody2D Rigbody;
-    public GameObject astronauta;
     private float Horizontal;
+
+    private Vector3 direccion = Vector3.right;
 
     void Start()
     {
         Rigbody = GetComponent<Rigidbody2D>();
-        Horizontal = Input.GetAxisRaw("Horizontal");
     }
 
 
@@ -23,16 +22,25 @@ public class Laser : MonoBehaviour
         float h = Input.GetAxis("Horizontal");
 
         Rigbody.velocity = new Vector2(Horizontal * velDisparo, Rigbody.velocity.y);
-        Rigbody.transform.Translate (Vector3.right * velDisparo * Time.deltaTime);
-        
+        Rigbody.transform.Translate (direccion * velDisparo * Time.deltaTime);    
     }
 
-    private void OnCollisionEnter(Collision collision)
+    public void Setdireccion(Vector3 direc)
+    {
+        if(direc == Vector3.left)
+        {
+            transform.localScale = new Vector3(-2.4283f, 2.6403f, 1f);
+        }
+        direccion = direc;
+    }
+
+    private void  OnTriggerEnter2D(Collider2D collision)
     {
         Debug.Log(collision.gameObject.name);
-        if (collision.gameObject.name == "hero")
+
+        if (collision.gameObject.name == "bloog")
         {
-            Destroy(this.gameObject, -.5f);
+            Destroy(this.gameObject);
         }
     }
 }
